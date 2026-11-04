@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'self' ws://localhost:* http://localhost:* ws://127.0.0.1:* http://127.0.0.1:*;"
+    />
+    <title>BloodConnect — Blood Bank Management System</title>
+  </head>
+  <body class="bg-background text-foreground overflow-hidden select-none antialiased">
+    <div id="root" class="h-screen w-screen flex flex-col"></div>
+    <script type="module" src="/src/renderer/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,15 @@
+{
+  "name": "@blood-connect/api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BloodConnect Central Backend API (NestJS) — Scheduled for Phase 2",
+  "main": "dist/main.js",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@blood-connect/config": "*",
+    "@blood-connect/shared": "*"
+  }
+}
+
